@@ -17,6 +17,8 @@ let data ;
 fetch('https://api.wazirx.com/api/v2/tickers',{
 })   
          .then( data= res => res.json())
-         .then(data=>{JSON.stringify(data);      
+         .then(data=>{JSON.stringify(data)
+            console.log(data)
+
          }) 
 app.listen(process.env.PORT||4000,console.log('connectd to server...'));
