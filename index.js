@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.get('/',(req,res)=>{
     res.send("Hello World");
 })
-app.use('/getdata',route)
+app.use('/getdata',route)// route for showing data from database in api
 let data ;
 fetch('https://api.wazirx.com/api/v2/tickers',{
 })   
