@@ -1,0 +1,135 @@
+body{
+    background-color: #171717
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.logo_div{
+    padding:0 ;
+}
+.logo{
+  border-radius: 4px;
+  padding: 5px;
+  width: 405px;
+  height: 120px;
+}
+.center_btn{
+    background: rgb(75, 67, 67);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-style: initial;
+    border:none;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+.tele_btn{
+    border:none;
+    background: turquoise;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    border-radius: 6px;
+
+}
+.numb_{
+    
+    color: rgb(0, 238, 255);;
+    border: 3px solid rgb(0, 238, 255);
+    border-radius: 100%;
+    padding: 4px;
+    margin-right:10px ;
+    font-size: 18px;
+    background:none;
+        
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(41, 39, 39);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(31, 191, 219);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:white;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .index{
+    display: flex;
+    display: flex;
+    margin: 28px 0px -35px 45px;
+    padding: 27px 44px 5px 31px;
+    justify-content: space-between;
+    color: rgb(150, 143, 143);
+    font-size: 25px;
+  }
+  ._1row{
+    font-family: sans-serif;
+    display: flex;
+    margin: -42px 40px 6px 75px;
+    padding: 13px 63px 0px 2px;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-size: 22px;
+    border-radius: 10px;
+  }
+ 
+  
