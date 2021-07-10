@@ -9,7 +9,6 @@ const Hodlinginfo = require('./modals/schema')
 app.use(express.json());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
-
 app.get('/',(req,res)=>{
     res.send("Hello World");
 })
@@ -18,8 +17,6 @@ let data ;
 fetch('https://api.wazirx.com/api/v2/tickers',{
 })   
          .then( data= res => res.json())
-         .then(data=>{console.log(data) ;
-
-        
+         .then(data=>{JSON.stringify(data);      
          }) 
 app.listen(process.env.PORT||4000,console.log('connectd to server...'));
